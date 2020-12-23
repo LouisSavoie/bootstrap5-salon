@@ -1,0 +1,13 @@
+header .container {
+    height: 75vh;
+    width: 100vw;
+    background-image: url("/images/top-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-size: calc(2.5rem + 3vw);
+    color: rgb(255, 100, 255);
+    text-shadow: -3px 3px 5px black;
+}
