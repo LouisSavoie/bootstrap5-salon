@@ -8,6 +8,58 @@ header {
 
 h2 {
     font-size: calc(2.5rem + 3vw);
+}
+
+.bg-pink {
+    background:  rgb(255, 100, 255);
+}
+
+.bg-blue {
+    background: rgba(125, 125, 255);
+}
+
+.text-pink {
     color: rgb(255, 100, 255);
-    text-shadow: -3px 3px 5px black;
+}
+
+.text-blue {
+    color: rgba(125, 125, 255);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-shadow {
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.40);
+}
+
+.text-shadow-strong {
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.80);
+}
+
+.btn-pink {
+    background-color: rgb(255, 100, 255);
+    color: white;
+}
+
+.left-text h3 {
+    font-size: calc(1rem + 1.75vw);
+}
+
+.right-text {
+    font-size: calc(1rem + .5vw);
+    font-weight: bold;
+}
+
+.image-row {
+    margin-top: -4rem;
+}
+
+.image-left {
+    
+}
+
+.image-right {
+    
 }
