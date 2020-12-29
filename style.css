@@ -1,13 +1,32 @@
+.nav-link {
+    font-weight: bold;
+    line-height: 1;
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: rgba(125, 125, 255);
+}
+
 header {
     height: 75vh;
-    width: 100vw;
-    background-image: url("/images/top-image.jpg");
+    width: 100%;
+    background-image: url("/images/top-image-dark.webp");
     background-position: center;
     background-repeat: no-repeat;
 }
 
 h2 {
     font-size: calc(2.5rem + 3vw);
+}
+
+.font-marker {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.font-kalam {
+    font-family: 'Kalam', cursive;
 }
 
 .bg-pink {
@@ -40,6 +59,13 @@ h2 {
 
 .btn-pink {
     background-color: rgb(255, 100, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-pink:hover {
+    background-color: rgb(255, 0, 255);
     color: white;
 }
 
@@ -49,7 +75,6 @@ h2 {
 
 .right-text {
     font-size: calc(1rem + .5vw);
-    font-weight: bold;
 }
 
 .image-row {
