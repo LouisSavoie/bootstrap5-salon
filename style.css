@@ -81,10 +81,10 @@ h2 {
     margin-top: -4rem;
 }
 
-.image-left {
-    
+.image-round {
+    border-radius: 50%;
 }
 
-.image-right {
-    
+.m-n2rem {
+    margin: -2rem;
 }
