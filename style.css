@@ -34,7 +34,12 @@ h2 {
 }
 
 .bg-blue {
-    background: rgba(125, 125, 255);
+    background: rgb(125, 125, 255);
+}
+
+.bg-blue-triangle {
+    height: 50vh;
+    background: linear-gradient(to top left, #fff 0%, #fff 50%, rgb(125, 125, 255) 50%, rgb(125, 125, 255) 100%);
 }
 
 .text-pink {
@@ -87,4 +92,12 @@ h2 {
 
 .m-n2rem {
     margin: -2rem;
+}
+
+.review-row {
+    margin-top: -16rem;
+}
+
+.card {
+    border-radius: 0;
 }
