@@ -38,7 +38,6 @@ h2 {
 }
 
 .bg-blue-triangle {
-    height: 50vh;
     background: linear-gradient(to top left, #fff 0%, #fff 50%, rgb(125, 125, 255) 50%, rgb(125, 125, 255) 100%);
 }
 
@@ -94,10 +93,10 @@ h2 {
     margin: -2rem;
 }
 
-.review-row {
-    margin-top: -16rem;
+.mb-6 {
+    margin-bottom: 6rem;
 }
 
-.card {
-    border-radius: 0;
+.mb-7 {
+    margin-bottom: 12rem;
 }
