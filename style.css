@@ -100,3 +100,31 @@ h2 {
 .mb-7 {
     margin-bottom: 12rem;
 }
+
+.footer-text {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: calc(1rem + .5vw);
+    color: white;
+}
+
+.footer-link {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: calc(1rem + .5vw);
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: rgba(125, 125, 255);
+}
+
+.footer-social {
+    font-size: calc(1rem + .5vw);
+    color: white;
+}
+
+.footer-social:hover {
+    color: rgba(125, 125, 255);
+}
