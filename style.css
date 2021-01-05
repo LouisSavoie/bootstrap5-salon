@@ -18,7 +18,7 @@ header {
 }
 
 h2 {
-    font-size: calc(2.5rem + 3vw);
+    font-size: calc(2rem + 3vw);
 }
 
 .font-marker {
@@ -127,4 +127,16 @@ h2 {
 
 .footer-social:hover {
     color: rgba(125, 125, 255);
+}
+
+#toplink {
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+    font-size: calc(3rem + 1vw);
+    color: black;
+}
+
+#toplink:hover {
+    color: rgb(0, 255, 0);
 }
