@@ -1,26 +1,12 @@
-.nav-link {
-    font-weight: bold;
-    line-height: 1;
-    color: black;
-}
+/* TEXT CLASSES */
+/* ------------ */
 
-.nav-link:hover {
-    text-decoration: underline;
-    color: rgba(125, 125, 255);
-}
-
-header {
-    height: 75vh;
-    width: 100%;
-    background-image: url("/images/top-image-dark.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
+/* Headings */
 h2 {
     font-size: calc(2rem + 3vw);
 }
 
+/* Fonts */
 .font-marker {
     font-family: 'Permanent Marker', cursive;
 }
@@ -29,18 +15,7 @@ h2 {
     font-family: 'Kalam', cursive;
 }
 
-.bg-pink {
-    background:  rgb(255, 100, 255);
-}
-
-.bg-blue {
-    background: rgb(125, 125, 255);
-}
-
-.bg-blue-triangle {
-    background: linear-gradient(to top left, #fff 0%, #fff 50%, rgb(125, 125, 255) 50%, rgb(125, 125, 255) 100%);
-}
-
+/* Colors */
 .text-pink {
     color: rgb(255, 100, 255);
 }
@@ -53,6 +28,7 @@ h2 {
     color: white;
 }
 
+/* Shadows */
 .text-shadow {
     text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.40);
 }
@@ -61,18 +37,7 @@ h2 {
     text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.80);
 }
 
-.btn-pink {
-    background-color: rgb(255, 100, 255);
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: white;
-}
-
-.btn-pink:hover {
-    background-color: rgb(255, 0, 255);
-    color: white;
-}
-
+/* Section Specific */
 .left-text h3 {
     font-size: calc(1rem + 1.75vw);
 }
@@ -81,31 +46,27 @@ h2 {
     font-size: calc(1rem + .5vw);
 }
 
-.image-row {
-    margin-top: -4rem;
-}
-
-.image-round {
-    border-radius: 50%;
-}
-
-.m-n2rem {
-    margin: -2rem;
-}
-
-.mb-6 {
-    margin-bottom: 6rem;
-}
-
-.mb-7 {
-    margin-bottom: 12rem;
-}
-
 .footer-text {
     font-family: 'Kalam', cursive;
     font-weight: bold;
     font-size: calc(1rem + .5vw);
     color: white;
+}
+
+/* LINK CLASSES */
+/* ------------ */
+
+
+/* Section Specific */
+.nav-link {
+    font-weight: bold;
+    line-height: 1;
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: rgba(125, 125, 255);
 }
 
 .footer-link {
@@ -128,6 +89,78 @@ h2 {
 .footer-social:hover {
     color: rgba(125, 125, 255);
 }
+
+/* BACKGROUND CLASSES */
+/* ------------------ */
+
+.bg-pink {
+    background:  rgb(255, 100, 255);
+}
+
+.bg-blue {
+    background: rgb(125, 125, 255);
+}
+
+/* Section Specific */
+.bg-blue-triangle {
+    background: linear-gradient(to top left, #fff 0%, #fff 50%, rgb(125, 125, 255) 50%, rgb(125, 125, 255) 100%);
+}
+
+/* IMAGE CLASSES */
+/* ------------- */
+
+.image-round {
+    border-radius: 50%;
+}
+
+/* Section Specific */
+.image-row {
+    margin-top: -4rem;
+}
+
+/* BUTTON CLASSES */
+/* -------------- */
+
+.btn-pink {
+    background-color: rgb(255, 100, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-pink:hover {
+    background-color: rgb(255, 0, 255);
+    color: white;
+}
+
+/* MARGIN CLASSES */
+/* -------------- */
+
+.m-n2rem {
+    margin: -2rem;
+}
+
+.mb-6 {
+    margin-bottom: 6rem;
+}
+
+.mb-7 {
+    margin-bottom: 12rem;
+}
+
+/* ELEMENTS */
+/* -------- */
+
+header {
+    height: 75vh;
+    width: 100%;
+    background-image: url("/images/top-image-dark.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* IDs */
+/* --- */
 
 #toplink {
     position: fixed;
