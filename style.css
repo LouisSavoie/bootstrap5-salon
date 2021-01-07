@@ -60,7 +60,6 @@ h2 {
 /* Section Specific */
 .nav-link {
     font-weight: bold;
-    line-height: 1;
     color: black;
 }
 
@@ -113,11 +112,6 @@ h2 {
     border-radius: 50%;
 }
 
-/* Section Specific */
-.image-row {
-    margin-top: -4rem;
-}
-
 /* BUTTON CLASSES */
 /* -------------- */
 
@@ -136,16 +130,21 @@ h2 {
 /* MARGIN CLASSES */
 /* -------------- */
 
-.m-n2rem {
-    margin: -2rem;
-}
-
 .mb-6 {
     margin-bottom: 6rem;
 }
 
 .mb-7 {
     margin-bottom: 12rem;
+}
+
+.m-n2rem {
+    margin: -2rem;
+}
+
+/* Section Specific */
+.image-row {
+    margin-top: -4rem;
 }
 
 /* ELEMENTS */
@@ -171,5 +170,5 @@ header {
 }
 
 #toplink:hover {
-    color: rgb(0, 255, 0);
+    color: rgb(100, 255, 100);
 }
