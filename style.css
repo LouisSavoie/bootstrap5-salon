@@ -72,6 +72,14 @@ h2 {
     color: rgb(255, 100, 255);
 }
 
+.topinfo-link {
+    color: rgb(100, 255, 100);
+}
+
+.topinfo-link:hover {
+    color: rgb(50, 225, 50);
+}
+
 .footer-link {
     font-family: 'Kalam', cursive;
     font-weight: bold;
