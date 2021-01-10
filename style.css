@@ -1,0 +1,197 @@
+/* TEXT CLASSES */
+/* ------------ */
+
+/* Headings */
+h2 {
+    font-size: calc(1rem + 2vw);
+}
+
+/* Fonts */
+.font-marker {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.font-kalam {
+    font-family: 'Kalam', cursive;
+}
+
+/* Colors */
+.text-pink {
+    color: rgb(255, 100, 255);
+}
+
+.text-blue {
+    color: rgba(125, 125, 255);
+}
+
+.text-white {
+    color: white;
+}
+
+/* Shadows */
+.text-shadow {
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.40);
+}
+
+.text-shadow-strong {
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.80);
+}
+
+/* Section Specific */
+.left-text h3 {
+    font-size: calc(1rem + 1.75vw);
+}
+
+.right-text {
+    font-size: calc(1rem + .5vw);
+}
+
+.footer-text {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: calc(1rem + .5vw);
+    color: white;
+}
+
+/* LINK CLASSES */
+/* ------------ */
+
+
+/* Section Specific */
+.nav-link {
+    font-weight: bold;
+    color: rgb(255, 100, 255);
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 255);
+}
+
+#topinfo a {
+    color: rgb(100, 255, 100);
+}
+
+#topinfo a:hover {
+    color: rgb(50, 225, 50);
+}
+
+.footer-link {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: calc(1rem + .5vw);
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: rgba(125, 125, 255);
+}
+
+.footer-social {
+    font-size: calc(1rem + .5vw);
+    color: white;
+}
+
+.footer-social:hover {
+    color: rgba(125, 125, 255);
+}
+
+/* BACKGROUND CLASSES */
+/* ------------------ */
+
+.bg-pink {
+    background:  rgb(255, 100, 255);
+}
+
+.bg-blue {
+    background: rgb(125, 125, 255);
+}
+
+/* Section Specific */
+
+.bg-blue-triangle {
+    background: linear-gradient(to top left, #fff 0%, #fff 50%, rgb(125, 125, 255) 50%, rgb(125, 125, 255) 100%);
+}
+
+.nav-transparent {
+    background-color: none;
+}
+
+/* IMAGE CLASSES */
+/* ------------- */
+
+.image-round {
+    border-radius: 50%;
+}
+
+/* BUTTON CLASSES */
+/* -------------- */
+
+.btn-green {
+    background-color: rgb(100, 255, 100);
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-green:hover {
+    background-color: rgb(50, 225, 50);
+    color: white;
+}
+
+/* Section Specific */
+
+.navbar-toggler-icon {
+    color: rgb(100, 255, 100);
+}
+
+.navbar-toggler-icon:hover {
+    color: rgb(50, 225, 50);
+}
+
+/* MARGIN CLASSES */
+/* -------------- */
+
+.mb-6 {
+    margin-bottom: 6rem;
+}
+
+.mb-7 {
+    margin-bottom: 12rem;
+}
+
+.m-n2rem {
+    margin: -2rem;
+}
+
+/* Section Specific */
+.image-row {
+    margin-top: -4rem;
+}
+
+/* ELEMENTS */
+/* -------- */
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/images/top-image-dark.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* IDs */
+/* --- */
+
+#toplink {
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+    font-size: calc(3rem + 1vw);
+    color: black;
+}
+
+#toplink i:hover {
+    color: rgb(100, 255, 100);
+}

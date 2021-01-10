@@ -40,7 +40,8 @@
         <script src="https://kit.fontawesome.com/f48ece1f64.js" crossorigin="anonymous"></script>
 
         <!-- GOOGLE FONTS -->
-        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Permanent+Marker&display=swap" rel="stylesheet">
 
         <!-- My CSS -->
         <link rel="stylesheet" href="style.css">
@@ -49,9 +50,267 @@
     
     <body>
 
+        <!-- NAVBAR -->
+        <nav class="navbar fixed-top pt-4">
+
+            <div class="container justify-content-end">
+
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars navbar-toggler-icon fs-1 lh-base text-shadow-strong"></i>
+                </button>
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" role="navigation">
+                    <ul class="navbar-nav justify-content-end align-items-end font-kalam fs-4 text-shadow-strong mb-0 me-3">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/services.html">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/staff.html">Staff</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/gallery.html">Gallery</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+        
+
+        <!-- TOPLINK -->
+        <a id="toplink" class="d-none" href="#"><i class="fas fa-arrow-circle-up"></i></a>
+
+        <!-- HEADER -->
+        <header class="mb-7">
+
+            <div class="container d-flex flex-column justify-content-evenly align-items-center h-100">
+
+                <!-- Brand -->
+                <div>
+                    <h1 class="visually-hidden">Lorem Ipsom Salon</h1>
+                    <a href="/index.html">
+                        <img class="img-fluid" src="/images/brand.webp">
+                    </a>
+                </div>
+
+                <!-- Page Title -->
+                <h2 class="row px-4 text-pink text-shadow-strong font-marker">
+                    HIGH STYLE
+                    <br>
+                    <span class="text-end text-nowrap text-blue">
+                    <em>LOW PRICES</em>
+                    </span>
+                </h2>
+
+                <!-- TOP INFO -->
+                <div id="topinfo">
+                    <div class="container d-flex justify-content-center align-items-center text-center h2 text-shadow-strong">
+                        <a class="topinfo-link p-3" href="https://goo.gl/maps/6YupnPXFQHpNyoTY8" target="_blank"><i class="fas fa-map-marked-alt"></i></a><br>
+                        <a class="topinfo-link p-3" href="mailto:thelousavoie@gmail.com"><i class="fas fa-paper-plane"></i></a><br>
+                        <a class="topinfo-link p-3" href="tel:+13075550977"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+
+        <main>
+
+            <!-- SERVICES -->
+            <section id="services">
+                <div class="container mb-7">
+
+                    <!-- Text Content -->
+                    <div class="row bg-blue p-4 pb-5 m-0">
+
+                        <div class="col-sm-12 col-md-4 left-text text-pink text-shadow pb-3">
+                            <h3 class="text-nowrap font-marker">YOU WANT IT <br> <u>WE DO IT</u></h3>
+                        </div>
+
+                        <div class="col-sm-12 col-md-8 right-text pb-5">
+                            <p class="text-white text-shadow font-kalam pb-2">Whatever kind of look you're going for, we can make it happen! Any type of cut or style for women, girls, men, boys, braids, curls, perms, or prom! We even do nails, brows, and lashes to go with it. Beards? Yeah, we can help you with that too, fellas.</p>
+                            <a href="/services.html" class="btn btn-green text-shadow shadow font-kalam pb-1 pt-2" role="button">More Info</a>
+                        </div>
+
+                    </div>
+                    
+                    <!-- Image Content -->
+                    <div class="row image-row d-flex flex-column flex-md-row justify-content-center px-5">
+
+                        <img src="/images/services-left.webp" class="p-0 shadow align-self-start align-self-md-center col-10 col-md-5">
+                        <img src="/images/services-right.webp" class="p-0 shadow align-self-end align-self-md-center col-10 col-md-6">
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- REVIEWS -->
+            <section id="reviews">
+                <div class="container mb-7">
+
+                    <div class="row bg-blue-triangle p-4 pb-0 m-0">
+
+                        <!-- Heading -->
+                        <div class="col-8 left-text text-pink text-shadow pb-4">
+                            <h3 class="font-marker">YOUR IDEAS, <u class="text-nowrap">MADE REAL</u></h3>
+                        </div>
+
+                        <!-- Gallery Button -->
+                        <div class="col-4">
+                            <a href="/gallery.html" class="btn btn-green text-shadow shadow font-kalam pb-1 pt-2" role="button">Gallery</a>
+                        </div>
+
+                        <!-- Review Cards -->
+                        <div class="row justify-content-evenly">
+
+                            <!-- Card Left -->
+                            <div class="card col-11 col-lg-5 mb-3 mb-lg-0 shadow">
+                                <div class="card-body">
+                                    
+                                    <div class="row pt-2 pb-2">
+
+                                        <!-- Image -->
+                                        <div class="col-12 col-md-6">
+                                            <img class="img-fluid" src="/images/reviews-left.webp" alt="">
+                                        </div>
+
+                                        <!-- Name, Service -->
+                                        <div class="col-12 col-md-6 pt-2 pt-md-0">
+                                            <h5 class="card-title">Customer A.</h5>
+                                            <h6 class="card-subtitle text-muted pb-3">Service Name</h6>
+                                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit expedita itaque qui optio beatae magni fugit est officiis totam!</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Card Right -->
+                            <div class="card col-11 col-lg-5 mb-3 mb-md-0 shadow">
+                                <div class="card-body">
+                                    
+                                    <div class="row pt-2 pb-2">
+
+                                        <!-- Image -->
+                                        <div class="col-12 col-md-6">
+                                            <img class="img-fluid" src="/images/reviews-right.webp" alt="">
+                                        </div>
+
+                                        <!-- Name, Service -->
+                                        <div class="col-12 col-md-6 pt-2 pt-md-0">
+                                            <h5 class="card-title">Customer B.</h5>
+                                            <h6 class="card-subtitle text-muted pb-3">Service Name</h6>
+                                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit expedita itaque qui optio beatae magni fugit est officiis totam!</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- STAFF -->
+            <section id="staff">
+                <div class="container mb-7">
+
+                    <!-- Text Content -->
+                    <div class="row bg-blue p-4 pb-5 m-0">
+
+                        <div class="col-sm-12 col-md-4 left-text text-pink text-shadow pb-3">
+                            <h3 class="text-nowrap font-marker">MEET <br> <u>THE TEAM</u></h3>
+                        </div>
+
+                        <div class="col-sm-12 col-md-8 right-text pb-5">
+                            <p class="text-white text-shadow font-kalam pb-2">Our staff have a rich and diverse skill set and come from all walks of life. Their number one priority is your hostpitality. We pride ourselves on being your friends, not just your stylists.</p>
+                            <a href="/staff.html" class="btn btn-green text-shadow shadow font-kalam pb-1 pt-2" role="button">More Info</a>
+                        </div>
+
+                    </div>
+                    
+                    <!-- Image Content -->
+                    <div class="row image-row d-flex align-items-center justify-content-center px-5">
+
+                        <img src="/images/staff-left.webp" class="image-round p-0 shadow col-10 col-md-4">
+                        <img src="/images/staff-center.webp" class="image-round m-n2rem p-0 shadow col-10 col-md-4">
+                        <img src="/images/staff-right.webp" class="image-round p-0 shadow col-10 col-md-4">
+
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
         <!-- FOOTER -->
-        <footer>
-            <p class="text-center text-shadow">Copyright© Louis Savoie 2020</p>
+        <footer class="bg-pink">
+
+            <div class="container">
+
+                <div class="row justify-content-evenly">
+                    
+                    <!-- Addresses -->
+                    <address class="col-12 col-md-4 footer-text text-center py-4 px-3 mb-0">
+                        <a class="footer-link" href="https://goo.gl/maps/6YupnPXFQHpNyoTY8" target="_blank">
+                        3160 Boardwalk Dr<br>
+                        Ann Arbor, MI<br>
+                        48108
+                        </a><br>
+                        <a class="footer-link" href="mailto:thelousavoie@gmail.com">TheLouSavoie@gmail.com</a><br>
+                        <a class="footer-link" href="tel:+13075550977">1 (307) 555-0977</a>
+                    </address>
+
+                    <!-- Map -->
+                    <div class="col-12 col-md-4 py-4 px-3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2953.724777961754!2d-83.73690258454745!3d42.24169247919505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883caf9614fb5283%3A0x30ecbd31df32e7f2!2s3160%20Boardwalk%20Dr%2C%20Ann%20Arbor%2C%20MI%2048108!5e0!3m2!1sen!2sus!4v1609809239805!5m2!1sen!2sus" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+    
+                    <!-- Nav -->
+                    <div class="col-12 col-md-4 text-center py-4 px-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="footer-link" href="/services.html">Services</a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="/gallery.html">Gallery</a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="/staff.html">Staff</a>
+                            </li>
+                        </ul>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square footer-social"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square footer-social"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square footer-social"></i></a>
+                    </div>
+
+                </div>
+
+
+            </div>
+            
+            <p class="text-center text-shadow pb-3 m-0">
+                Copyright© Louis Savoie 2021. All rights reserved.<br>
+                This page is a portfolio piece for 
+                <a href="https://www.louissavoie.com">Louis Savoie</a>
+                 and NOT a legitimate company nor associated with or reflecting the views or identities of any company either real or fictitious in any way.
+            </p>
+
         </footer>
 
         <!-- My Javascript -->
