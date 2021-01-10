@@ -128,15 +128,15 @@ h2 {
 /* BUTTON CLASSES */
 /* -------------- */
 
-.btn-pink {
-    background-color: rgb(255, 100, 255);
+.btn-green {
+    background-color: rgb(100, 255, 100);
     font-size: 1.25rem;
     font-weight: bold;
     color: white;
 }
 
-.btn-pink:hover {
-    background-color: rgb(255, 0, 255);
+.btn-green:hover {
+    background-color: rgb(50, 225, 50);
     color: white;
 }
 
