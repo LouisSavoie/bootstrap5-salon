@@ -51,63 +51,57 @@
     <body>
 
         <!-- NAVBAR -->
-        <div class="container fixed-top pt-4">
+        <nav class="navbar fixed-top pt-4">
 
-            <nav class="navbar navbar-expand-md bg-white shadow p-0">
+            <div class="container justify-content-end">
 
-                <div class="container-fluid">
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars navbar-toggler-icon fs-1 lh-base text-shadow-strong"></i>
+                </button>
 
-                    <!-- Brand -->
-                    <h1 class="visually-hidden">Lorem Ipsom Salon</h1>
-                    <a class="navbar-brand" href="/index.html">
-                        <img src="/images/brand.webp">
-                    </a>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" role="navigation">
+                    <ul class="navbar-nav justify-content-end align-items-end font-kalam fs-4 text-shadow-strong mb-0 me-3">
 
-                    <!-- Toggler -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-bars navbar-toggler-icon fs-1 lh-base"></i>
-                    </button>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/services.html">Services</a>
+                        </li>
 
-                    <!-- Links -->
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent" role="navigation">
-                        <ul class="navbar-nav justify-content-end align-items-end font-kalam fs-4 w-100 mb-0 me-md-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/staff.html">Staff</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="/services.html">Services</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/gallery.html">Gallery</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="/staff.html">Staff</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="/gallery.html">Gallery</a>
-                            </li>
-
-                        </ul>
-                    </div>
-
+                    </ul>
                 </div>
 
-              </nav>
-              
-        </div>
-
-        <!-- TOP INFO -->
-        <div id="topinfo" class="fixed-bottom">
-            <div class="container d-flex justify-content-center align-items-center text-center h2 text-shadow">
-                <a class="topinfo-link p-3" href="https://goo.gl/maps/6YupnPXFQHpNyoTY8" target="_blank"><i class="fas fa-map-marked-alt"></i></a><br>
-                <a class="topinfo-link p-3" href="mailto:thelousavoie@gmail.com"><i class="fas fa-paper-plane"></i></a><br>
-                <a class="topinfo-link p-3" href="tel:+13075550977"><i class="fas fa-phone"></i></a>
             </div>
-        </div>
+
+        </nav>
+
+        
 
         <!-- TOPLINK -->
         <a id="toplink" class="d-none" href="#"><i class="fas fa-arrow-circle-up"></i></a>
 
         <!-- HEADER -->
-        <header class="d-flex flex-column justify-content-center mb-7">
-            <div class="container d-flex flex-column justify-content-center align-items-center">
+        <header class="mb-7">
+
+            <div class="container d-flex flex-column justify-content-evenly align-items-center h-100">
+
+                <!-- Brand -->
+                <div>
+                    <h1 class="visually-hidden">Lorem Ipsom Salon</h1>
+                    <a class="navbar-brand" href="/index.html">
+                        <img src="/images/brand.webp">
+                    </a>
+                </div>
+
+                <!-- Page Title -->
                 <h2 class="row px-4 text-pink text-shadow-strong font-marker">
                     HIGH STYLE
                     <br>
@@ -115,7 +109,18 @@
                     <em>LOW PRICES</em>
                     </span>
                 </h2>
+
+                <!-- TOP INFO -->
+                <div id="topinfo">
+                    <div class="container d-flex justify-content-center align-items-center text-center h2 text-shadow-strong">
+                        <a class="topinfo-link p-3" href="https://goo.gl/maps/6YupnPXFQHpNyoTY8" target="_blank"><i class="fas fa-map-marked-alt"></i></a><br>
+                        <a class="topinfo-link p-3" href="mailto:thelousavoie@gmail.com"><i class="fas fa-paper-plane"></i></a><br>
+                        <a class="topinfo-link p-3" href="tel:+13075550977"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+
             </div>
+
         </header>
 
         <main>
