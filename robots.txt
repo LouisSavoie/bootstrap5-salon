@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://www.louissavoie.com/projects/bootstrap5-salon/sitemap.xml
