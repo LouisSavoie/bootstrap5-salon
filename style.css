@@ -196,6 +196,29 @@ header {
     color: rgb(100, 255, 100);
 }
 
+/* PAGE SPECIFIC */
+/* ------------- */
+
+/* Index Page */
+
 #index-header {
     height: 100vh;
+}
+
+/* Gallery Page */
+#gallery img {
+    height: 46vw;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 576px) {
+    #gallery img {
+        height: 31vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #gallery img {
+        height: 23vw;
+    }
 }
