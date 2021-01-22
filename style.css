@@ -24,6 +24,10 @@ h2 {
     color: rgba(125, 125, 255);
 }
 
+.text-green {
+    color: rgb(100, 255, 100);
+}
+
 .text-white {
     color: white;
 }
@@ -174,7 +178,7 @@ h2 {
 /* -------- */
 
 header {
-    height: 100vh;
+    height: 75vh;
     width: 100%;
     background-image: url("/images/top-image-dark.webp");
     background-position: center;
@@ -194,4 +198,77 @@ header {
 
 #toplink i:hover {
     color: rgb(100, 255, 100);
+}
+
+/* PAGE SPECIFIC */
+/* ------------- */
+
+/* Index Page */
+
+#index-header {
+    height: 100vh;
+}
+
+/* Gallery Page */
+#gallery img {
+    height: 46vw;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 576px) {
+    #gallery img {
+        height: 31vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #gallery img {
+        height: 23vw;
+    }
+}
+
+/* Staff Page */
+
+.staff-img {
+    height: 400px;
+    margin: -2rem 0 -2rem -2rem;
+}
+
+@media screen and (max-width: 576px) {
+    .staff-img {
+        height: 400px;
+        margin: -1rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .staff-img {
+        height: 400px;
+        margin: -1rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .staff-img {
+        height: 275px;
+        margin: -1rem 0 -1rem -1rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .staff-img {
+        height: 325px;
+        margin: -2rem 0 -2rem -2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .staff-img {
+        height: 400px;
+        margin: -2rem 0 -2rem -2rem;
+    }
+}
+
+.rounded-20 {
+    border-radius: 20px;
 }

@@ -96,7 +96,7 @@
         <a id="toplink" class="d-none" href="#"><i class="fas fa-arrow-circle-up"></i></a>
 
         <!-- HEADER -->
-        <header id="index-header" class="mb-7">
+        <header class="mb-5">
 
             <div class="container d-flex flex-column justify-content-evenly align-items-center h-100">
 
@@ -110,10 +110,10 @@
 
                 <!-- Page Title -->
                 <h2 class="row px-4 text-pink text-shadow-strong font-marker">
-                    HIGH STYLE
+                    IMAGE
                     <br>
                     <span class="text-end text-nowrap text-blue">
-                    <em>LOW PRICES</em>
+                    GALLERY
                     </span>
                 </h2>
 
@@ -132,136 +132,108 @@
 
         <main>
 
-            <!-- SERVICES -->
-            <section id="services">
-                <div class="container mb-7">
+            <!-- GALLERY -->
+            <section id="gallery">
+                <div class="row px-2 m-0" data-bs-toggle='modal' data-bs-target="#galleryModal">
+                    <div class="col-12 col-sm-6 col-lg-3 pb-4">
+                        <img class="w-100" src="/images/gallery/gallery001.webp" alt="" data-bs-target="#galleryCarousel" data-bs-slide-to="0">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 pb-4">
+                        <img class="w-100" src="/images/gallery/gallery002.webp" alt="" data-bs-target="#galleryCarousel" data-bs-slide-to="1">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 pb-4">
+                        <img class="w-100" src="/images/gallery/gallery003.webp" alt="" data-bs-target="#galleryCarousel" data-bs-slide-to="2">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 pb-4">
+                        <img class="w-100" src="/images/gallery/gallery004.webp" alt="" data-bs-target="#galleryCarousel" data-bs-slide-to="3">
+                    </div>
+                </div>
+                <div class="row px-2 m-0" data-bs-toggle='modal' data-bs-target="#galleryModal">
+                    <div class="col-12 col-sm-6 col-lg-3 pb-4">
+                        <img class="w-100" src="/images/gallery/gallery005.webp" alt="" data-bs-target="#galleryCarousel" data-bs-slide-to="4">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 pb-4">
+                        <img class="w-100" src="/images/gallery/gallery006.webp" alt="" data-bs-target="#galleryCarousel" data-bs-slide-to="5">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 pb-4">
+                        <img class="w-100" src="/images/gallery/gallery007.webp" alt="" data-bs-target="#galleryCarousel" data-bs-slide-to="6">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 pb-4">
+                        <img class="w-100" src="/images/gallery/gallery008.webp" alt="" data-bs-target="#galleryCarousel" data-bs-slide-to="7">
+                    </div>
+                </div>
+            </section>
 
-                    <!-- Text Content -->
-                    <div class="row bg-blue p-4 pb-5 m-0">
+            <!-- Modal -->
+            <div id="galleryModal" class="modal fade" tabindex="-1">
+                <div class="modal-dialog modal-dialog-center">
+                  <div class="modal-content">
 
-                        <div class="col-sm-12 col-md-4 left-text text-pink text-shadow pb-3">
-                            <h3 class="text-nowrap font-marker">YOU WANT IT <br> <u>WE DO IT</u></h3>
-                        </div>
-
-                        <div class="col-sm-12 col-md-8 right-text pb-5">
-                            <p class="text-white text-shadow font-kalam pb-2">Whatever kind of look you're going for, we can make it happen! Any type of cut or style for women, girls, men, boys, braids, curls, perms, or prom! We even do nails, brows, and lashes to go with it. Beards? Yeah, we can help you with that too, fellas.</p>
-                            <a href="/services.html" class="btn btn-green text-shadow shadow font-kalam pb-1 pt-2" role="button">More Info</a>
-                        </div>
-
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     
-                    <!-- Image Content -->
-                    <div class="row image-row d-flex flex-column flex-md-row justify-content-center px-5">
+                    <div class="modal-body">
 
-                        <img src="/images/services-left.webp" class="p-0 shadow align-self-start align-self-md-center col-10 col-md-5">
-                        <img src="/images/services-right.webp" class="p-0 shadow align-self-end align-self-md-center col-10 col-md-6">
+                        <!-- Carousel -->
+                        <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
 
-                    </div>
+                            <ol class="carousel-indicators">
+                              <li data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active"></li>
+                              <li data-bs-target="#galleryCarousel" data-bs-slide-to="1"></li>
+                              <li data-bs-target="#galleryCarousel" data-bs-slide-to="2"></li>
+                              <li data-bs-target="#galleryCarousel" data-bs-slide-to="3"></li>
+                              <li data-bs-target="#galleryCarousel" data-bs-slide-to="4"></li>
+                              <li data-bs-target="#galleryCarousel" data-bs-slide-to="5"></li>
+                              <li data-bs-target="#galleryCarousel" data-bs-slide-to="6"></li>
+                              <li data-bs-target="#galleryCarousel" data-bs-slide-to="7"></li>
+                            </ol>
 
-                </div>
-            </section>
+                            <div class="carousel-inner">
 
-            <!-- REVIEWS -->
-            <section id="reviews">
-                <div class="container mb-7">
+                              <div class="carousel-item active">
+                                <img src="/images/gallery/gallery001.webp" class="d-block w-100" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/images/gallery/gallery002.webp" class="d-block w-100" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/images/gallery/gallery003.webp" class="d-block w-100" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/images/gallery/gallery004.webp" class="d-block w-100" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/images/gallery/gallery005.webp" class="d-block w-100" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/images/gallery/gallery006.webp" class="d-block w-100" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/images/gallery/gallery007.webp" class="d-block w-100" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/images/gallery/gallery008.webp" class="d-block w-100" alt="">
+                              </div>
 
-                    <div class="row bg-blue-triangle p-4 pb-0 m-0">
-
-                        <!-- Heading -->
-                        <div class="col-8 left-text text-pink text-shadow pb-4">
-                            <h3 class="font-marker">YOUR IDEAS, <u class="text-nowrap">MADE REAL</u></h3>
-                        </div>
-
-                        <!-- Gallery Button -->
-                        <div class="col-4">
-                            <a href="/gallery.html" class="btn btn-green text-shadow shadow font-kalam pb-1 pt-2" role="button">Gallery</a>
-                        </div>
-
-                        <!-- Review Cards -->
-                        <div class="row justify-content-evenly">
-
-                            <!-- Card Left -->
-                            <div class="card col-11 col-lg-5 mb-3 mb-lg-0 shadow">
-                                <div class="card-body">
-                                    
-                                    <div class="row pt-2 pb-2">
-
-                                        <!-- Image -->
-                                        <div class="col-12 col-md-6">
-                                            <img class="img-fluid" src="/images/reviews-left.webp" alt="">
-                                        </div>
-
-                                        <!-- Name, Service -->
-                                        <div class="col-12 col-md-6 pt-2 pt-md-0">
-                                            <h5 class="card-title">Customer A.</h5>
-                                            <h6 class="card-subtitle text-muted pb-3">Service Name</h6>
-                                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit expedita itaque qui optio beatae magni fugit est officiis totam!</p>
-                                        </div>
-
-                                    </div>
-
-                                </div>
                             </div>
 
-                            <!-- Card Right -->
-                            <div class="card col-11 col-lg-5 mb-3 mb-md-0 shadow">
-                                <div class="card-body">
-                                    
-                                    <div class="row pt-2 pb-2">
+                            <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </a>
 
-                                        <!-- Image -->
-                                        <div class="col-12 col-md-6">
-                                            <img class="img-fluid" src="/images/reviews-right.webp" alt="">
-                                        </div>
+                            <a class="carousel-control-next" href="#galleryCarousel" role="button" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </a>
 
-                                        <!-- Name, Service -->
-                                        <div class="col-12 col-md-6 pt-2 pt-md-0">
-                                            <h5 class="card-title">Customer B.</h5>
-                                            <h6 class="card-subtitle text-muted pb-3">Service Name</h6>
-                                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit expedita itaque qui optio beatae magni fugit est officiis totam!</p>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
+                          </div>
 
                     </div>
-
+                  </div>
                 </div>
-            </section>
-
-            <!-- STAFF -->
-            <section id="staff">
-                <div class="container mb-7">
-
-                    <!-- Text Content -->
-                    <div class="row bg-blue p-4 pb-5 m-0">
-
-                        <div class="col-sm-12 col-md-4 left-text text-pink text-shadow pb-3">
-                            <h3 class="text-nowrap font-marker">MEET <br> <u>THE TEAM</u></h3>
-                        </div>
-
-                        <div class="col-sm-12 col-md-8 right-text pb-5">
-                            <p class="text-white text-shadow font-kalam pb-2">Our staff have a rich and diverse skill set and come from all walks of life. Their number one priority is your hostpitality. We pride ourselves on being your friends, not just your stylists.</p>
-                            <a href="/staff.html" class="btn btn-green text-shadow shadow font-kalam pb-1 pt-2" role="button">More Info</a>
-                        </div>
-
-                    </div>
-                    
-                    <!-- Image Content -->
-                    <div class="row image-row d-flex align-items-center justify-content-center px-5">
-
-                        <img src="/images/staff-left.webp" class="image-round p-0 shadow col-10 col-md-4">
-                        <img src="/images/staff-center.webp" class="image-round m-n2rem p-0 shadow col-10 col-md-4">
-                        <img src="/images/staff-right.webp" class="image-round p-0 shadow col-10 col-md-4">
-
-                    </div>
-
-                </div>
-            </section>
+              </div>
 
         </main>
 
