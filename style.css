@@ -2,6 +2,17 @@
 /* ------------ */
 
 /* Headings */
+h1 {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: calc(1rem + 2vw);
+}
+
+#brand p {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: calc(6rem + 3vw);
+    line-height: 1;
+}
+
 h2 {
     font-size: calc(1rem + 2vw);
 }
@@ -202,12 +213,6 @@ header {
 
 /* PAGE SPECIFIC */
 /* ------------- */
-
-/* Index Page */
-
-#index-header {
-    height: 100vh;
-}
 
 /* Gallery Page */
 #gallery img {
